@@ -6,27 +6,33 @@
 
 ## Introduction
 
-> This app is used to convert translations files from MemoQ to JSON
+This app is used to convert translations files from MemoQ to JSON.  
+It use the mqxliff as a base format.   
 
-Maintener: Vivien Roggero
-
-## App
+## Source
   
-Based on NodeJS using 2 packages: filehound and mqxliff
+NodeJS app using the following extra packages: 
+- filehound
+- mqxliff
+- console-emoji  
   
 ## How to use it ? 
 
-> Put the files that you need to convert inside the 7data folder  
-> then execute node index.js in the console to execute the conversion  
-> The converted JSON files will be inside the exports folder
+> Put the mqxliff files that you need to convert inside the \data folder  
+> then execute __npm start__ in the console to execute the conversion  
+> The converted JSON files will be inside the \exports folder
 
 ## License
 
-MIT
+[MIT](LICENSE)
+
+  
+
 
 ---
 
-> [plasnak.com](https://www.plasnak.com) &nbsp;&middot;&nbsp;
+> Website [https://playsnak.com](https://www.plasnak.com) &nbsp;&middot;&nbsp;
 > GitHub [@Playsnak-GmbH](https://github.com/Playsnak-GmbH) &nbsp;&middot;&nbsp;
 > Twitter [@playsnakgames](https://twitter.com/playsnakgames) &nbsp;&middot;&nbsp;
-> Facebook [@playsnak](https://www.facebook.com/playsna)
+> Facebook [@playsnak](https://www.facebook.com/playsnak) &nbsp;&middot;&nbsp;
+> Maintener [@vivien-ps](https://github.com/vivien-ps)
