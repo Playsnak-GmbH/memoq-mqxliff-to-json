@@ -1,0 +1,16 @@
+{
+  "name": "memoq-mqxliff-to-json",
+  "version": "1.1.0",
+  "description": "Conveting Memoq mqxliff to JSON",
+  "main": "index.js",
+  "scripts": {
+    "conversion": "node index.js"
+  },
+  "author": "Vivien Roggero",
+  "license": "MIT",
+  "dependencies": {
+    "console-emoji": "0.0.2",
+    "filehound": "^1.16.2",
+    "mqxliff": "^0.2.0"
+  }
+}
